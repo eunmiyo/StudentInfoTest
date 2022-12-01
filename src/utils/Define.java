@@ -14,6 +14,7 @@ public class Define {
 	public static final int MATH = 2001; //수학
 	
 	//학점 산출 방식
+	//0,1 을 인덱스번호로 이용
 	public static final int AB_TYPE = 0; //A, B, ...일반과목 산출방식
 	public static final int SAB_TYPE = 1; //S, A, B, ...필수과목 산출방식
 }

@@ -6,15 +6,15 @@ import utils.Define;
 
 public class Subject {
 	private String subjectName; //과목명
-	private int studentId; //과목코드
+	private int subjecId; //과목코드
 	private int gradeType; //학점산출방식, 학점평가정책
 	
 	//과목을 수강신청한 학생 리스트
 	private ArrayList<Student> studentList = new ArrayList<>();
 	
-	public Subject(String subjectName, int studentId) {
+	public Subject(String subjectName, int subjecId) {
 		this.subjectName = subjectName;
-		this.studentId = studentId;
+		this.subjecId = subjecId;
 		/*
 		 * 학점평가정책은: 기본으로 A,B 방식을 사용한다.
 		 * Define에서 stastic으로 선언해줬기 때문에 
@@ -37,12 +37,12 @@ public class Subject {
 		this.subjectName = subjectName;
 	}
 
-	public int getStudentId() {
-		return studentId;
+	public int getSubjecId() {
+		return subjecId;
 	}
 
-	public void setStudentId(int studentId) {
-		this.studentId = studentId;
+	public void setSubjecId(int subjecId) {
+		this.subjecId = subjecId;
 	}
 
 	public int getGradeType() {
