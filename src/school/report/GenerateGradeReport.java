@@ -67,7 +67,7 @@ public class GenerateGradeReport {
 		}
 	}
 	
-	//학생의 수강과목 점수와 학점을 얻는 메소드
+	//학생의 수강과목 점수와 학점을 얻는 메소드로 학생과 과목코드를 매개변수로 받는다.
 	public void getScoreGrade(Student student, int subjectId) {
 		//해당 학생이 수강한 과목의 점수 리스트(국어, 수학)
 		ArrayList<Score> scoreList = student.getScoreList();
